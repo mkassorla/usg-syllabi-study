@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>USG Course Syllabus AI Policy Study — Executive Report</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
+  <style>
+    @media print {
+      body { background: white !important; color: black !important; }
+      .no-print { display: none !important; }
+    }
+  </style>
+</head>
+<body class="bg-[var(--background)] text-[var(--foreground)] antialiased p-4 sm:p-6 lg:p-8 font-sans">
+
+  <!-- Header Banner -->
+  <div class="max-w-7xl mx-auto mb-8 bg-[var(--card)] border border-[var(--border)] rounded-2xl p-6 sm:p-8 shadow-sm">
+    <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
+      <div>
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-blue-500/10 text-blue-500 border border-blue-500/20 mb-3">
+          <span class="w-2 h-2 rounded-full bg-blue-500 animate-pulse"></span>
+          Statewide Research Census • Fall 2026
+        </div>
+        <h1 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold tracking-tight text-[var(--foreground)]">
+          Generative AI Policies Across the University System of Georgia
+        </h1>
+        <p class="text-[var(--muted-foreground)] text-sm sm:text-base mt-2 max-w-3xl leading-relaxed">
+          An empirical analysis of course-level artificial intelligence policies across <strong class="text-[var(--foreground)]">45,851 course syllabi</strong> from all 26 USG higher education institutions and USG eCampus, mandated by the USG Board of Regents Policy (Section 2.8).
+        </p>
+      </div>
+      <div class="flex flex-col sm:flex-row lg:flex-col gap-3 min-w-[240px] text-xs">
+        <div class="p-3 rounded-xl bg-[var(--background)] border border-[var(--border)]">
+          <span class="text-[var(--muted-foreground)] block">Principal Investigator:</span>
+          <span class="font-semibold text-sm text-[var(--foreground)]">Michelle</span>
+        </div>
+        <div class="p-3 rounded-xl bg-[var(--background)] border border-[var(--border)]">
+          <span class="text-[var(--muted-foreground)] block">Dataset Corpus:</span>
+          <span class="font-semibold text-sm text-[var(--foreground)]">45,851 Syllabi (100.2 MB)</span>
+        </div>
+        <div class="p-3 rounded-xl bg-[var(--background)] border border-[var(--border)]">
+          <span class="text-[var(--muted-foreground)] block">Mandate Authority:</span>
+          <span class="font-semibold text-sm text-[var(--foreground)]">BOR May 15, 2025 (Sec 2.8)</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Executive Metric Cards -->
+  <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 mb-8">
+    
+    <!-- Metric 1 -->
+    <div class="bg-[var(--card)] border border-[var(--border)] rounded-2xl p-5 shadow-sm relative overflow-hidden">
+      <div class="absolute top-0 right-0 w-24 h-24 bg-blue-500/5 rounded-bl-full pointer-events-none"></div>
+      <div class="flex items-center justify-between mb-3">
+        <span class="text-xs font-semibold uppercase tracking-wider text-blue-500">Metric 1 • Baseline</span>
+        <span class="px-2 py-0.5 text-xs font-medium rounded-full bg-blue-500/10 text-blue-500">Majority</span>
+      </div>
+      <div class="text-3xl sm:text-4xl font-black text-[var(--foreground)] tracking-tight">60.88%</div>
+      <div class="text-sm font-semibold text-[var(--foreground)] mt-1">27,916 Courses</div>
+      <p class="text-xs text-[var(--muted-foreground)] mt-2 leading-relaxed">
+        <strong>Boilerplate Deference:</strong> Instructors add no custom rules; course relies entirely upon the institutional baseline syllabus statement.
+      </p>
+      <div class="mt-4 w-full bg-[var(--border)] rounded-full h-1.5 overflow-hidden">
+        <div class="bg-blue-500 h-1.5 rounded-full" style="width: 60.88%"></div>
+      </div>
+    </div>
+
+    <!-- Metric 2 -->
+    <div class="bg-[var(--card)] border border-[var(--border)] rounded-2xl p-5 shadow-sm relative overflow-hidden">
+      <div class="absolute top-0 right-0 w-24 h-24 bg-rose-500/5 rounded-bl-full pointer-events-none"></div>
+      <div class="flex items-center justify-between mb-3">
+        <span class="text-xs font-semibold uppercase tracking-wider text-rose-500">Metric 2 • Prohibition</span>
+        <span class="px-2 py-0.5 text-xs font-medium rounded-full bg-rose-500/10 text-rose-500">1 in 6 Courses</span>
+      </div>
+      <div class="text-3xl sm:text-4xl font-black text-[var(--foreground)] tracking-tight">16.15%</div>
+      <div class="text-sm font-semibold text-[var(--foreground)] mt-1">7,407 Courses</div>
+      <p class="text-xs text-[var(--muted-foreground)] mt-2 leading-relaxed">
+        <strong>Strict Prohibition:</strong> Instructors explicitly ban all generative AI tools across all course activities, exams, and written assignments.
+      </p>
+      <div class="mt-4 w-full bg-[var(--border)] rounded-full h-1.5 overflow-hidden">
+        <div class="bg-rose-500 h-1.5 rounded-full" style="width: 16.15%"></div>
+      </div>
+    </div>
+
+    <!-- Metric 3 -->
+    <div class="bg-[var(--card)] border border-[var(--border)] rounded-2xl p-5 shadow-sm relative overflow-hidden">
+      <div class="absolute top-0 right-0 w-24 h-24 bg-emerald-500/5 rounded-bl-full pointer-events-none"></div>
+      <div class="flex items-center justify-between mb-3">
+        <span class="text-xs font-semibold uppercase tracking-wider text-emerald-500">Metric 3 • Permissive</span>
+        <span class="px-2 py-0.5 text-xs font-medium rounded-full bg-emerald-500/10 text-emerald-500">1 in 4 Courses</span>
+      </div>
+      <div class="text-3xl sm:text-4xl font-black text-[var(--foreground)] tracking-tight">22.76%</div>
+      <div class="text-sm font-semibold text-[var(--foreground)] mt-1">10,434 Courses</div>
+      <p class="text-xs text-[var(--muted-foreground)] mt-2 leading-relaxed">
+        <strong>Conditional / Guided Use:</strong> AI is allowed for specific tasks (ideation, brainstorming, coding, proofreading) with attribution.
+      </p>
+      <div class="mt-4 w-full bg-[var(--border)] rounded-full h-1.5 overflow-hidden">
+        <div class="bg-emerald-500 h-1.5 rounded-full" style="width: 22.76%"></div>
+      </div>
+    </div>
+
+    <!-- Metric 4 -->
+    <div class="bg-[var(--card)] border border-[var(--border)] rounded-2xl p-5 shadow-sm relative overflow-hidden">
+      <div class="absolute top-0 right-0 w-24 h-24 bg-purple-500/5 rounded-bl-full pointer-events-none"></div>
+      <div class="flex items-center justify-between mb-3">
+        <span class="text-xs font-semibold uppercase tracking-wider text-purple-500">Metric 4 • Required</span>
+        <span class="px-2 py-0.5 text-xs font-medium rounded-full bg-purple-500/10 text-purple-500">Pedagogical Core</span>
+      </div>
+      <div class="text-3xl sm:text-4xl font-black text-[var(--foreground)] tracking-tight">0.21%</div>
+      <div class="text-sm font-semibold text-[var(--foreground)] mt-1">94 Courses</div>
+      <p class="text-xs text-[var(--muted-foreground)] mt-2 leading-relaxed">
+        <strong>Mandatory Integration:</strong> AI tools are actively required for student assignments, multimodal writing, or core course outcomes.
+      </p>
+      <div class="mt-4 w-full bg-[var(--border)] rounded-full h-1.5 overflow-hidden">
+        <div class="bg-purple-500 h-1.5 rounded-full" style="width: 2.1%"></div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Statewide Distribution Bar -->
+  <div class="max-w-7xl mx-auto mb-8 bg-[var(--card)] border border-[var(--border)] rounded-2xl p-6 shadow-sm">
+    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-3 gap-2">
+      <h2 class="text-base font-bold text-[var(--foreground)]">Statewide Overall Policy Distribution ($N = 45,851$)</h2>
+      <span class="text-xs text-[var(--muted-foreground)]">100% of Cataloged Fall 2026 Public Syllabi</span>
+    </div>
+    
+    <!-- Multi-segment bar -->
+    <div class="w-full h-8 rounded-xl overflow-hidden flex shadow-inner">
+      <div style="width: 60.88%" class="bg-blue-500 flex items-center justify-center text-white text-xs font-bold transition-all" title="Boilerplate Only: 60.88% (27,916)">60.9%</div>
+      <div style="width: 16.15%" class="bg-rose-500 flex items-center justify-center text-white text-xs font-bold transition-all" title="Prohibits Completely: 16.15% (7,407)">16.2%</div>
+      <div style="width: 22.76%" class="bg-emerald-500 flex items-center justify-center text-white text-xs font-bold transition-all" title="Permits Some AI: 22.76% (10,434)">22.8%</div>
+      <div style="width: 0.21%" class="bg-purple-500 flex items-center justify-center text-white text-[10px] font-bold transition-all" title="Requires AI: 0.21% (94)"></div>
+    </div>
+
+    <!-- Legend -->
+    <div class="flex flex-wrap items-center justify-between gap-4 mt-4 pt-4 border-t border-[var(--border)] text-xs">
+      <div class="flex items-center gap-2">
+        <span class="w-3 h-3 rounded-full bg-blue-500"></span>
+        <span class="font-medium text-[var(--foreground)]">Boilerplate Deference (27,916 / 60.88%)</span>
+      </div>
+      <div class="flex items-center gap-2">
+        <span class="w-3 h-3 rounded-full bg-rose-500"></span>
+        <span class="font-medium text-[var(--foreground)]">Prohibits AI Completely (7,407 / 16.15%)</span>
+      </div>
+      <div class="flex items-center gap-2">
+        <span class="w-3 h-3 rounded-full bg-emerald-500"></span>
+        <span class="font-medium text-[var(--foreground)]">Permits Some Tasks (10,434 / 22.76%)</span>
+      </div>
+      <div class="flex items-center gap-2">
+        <span class="w-3 h-3 rounded-full bg-purple-500"></span>
+        <span class="font-medium text-[var(--foreground)]">Requires AI Use (94 / 0.21%)</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Deep Dive: Custom Policy Stance Breakdown -->
+  <div class="max-w-7xl mx-auto mb-8 grid grid-cols-1 lg:grid-cols-3 gap-6">
+    <div class="bg-[var(--card)] border border-[var(--border)] rounded-2xl p-6 shadow-sm lg:col-span-1">
+      <h3 class="text-base font-bold text-[var(--foreground)] mb-2">Among Faculty Writing Custom Policies</h3>
+      <p class="text-xs text-[var(--muted-foreground)] mb-4 leading-relaxed">
+        When faculty choose to author custom course guidelines rather than relying on university boilerplate ($N = 17,935$), the vast majority opt for permissive/guided adoption:
+      </p>
+      <div class="space-y-4">
+        <div>
+          <div class="flex justify-between text-xs font-semibold mb-1">
+            <span class="text-emerald-500">Permits Guided / Task-Specific Use</span>
+            <span class="text-[var(--foreground)]">58.18% (10,434)</span>
+          </div>
+          <div class="w-full bg-[var(--border)] rounded-full h-2">
+            <div class="bg-emerald-500 h-2 rounded-full" style="width: 58.18%"></div>
+          </div>
+        </div>
+        <div>
+          <div class="flex justify-between text-xs font-semibold mb-1">
+            <span class="text-rose-500">Prohibits All AI Completely</span>
+            <span class="text-[var(--foreground)]">41.30% (7,407)</span>
+          </div>
+          <div class="w-full bg-[var(--border)] rounded-full h-2">
+            <div class="bg-rose-500 h-2 rounded-full" style="width: 41.30%"></div>
+          </div>
+        </div>
+        <div>
+          <div class="flex justify-between text-xs font-semibold mb-1">
+            <span class="text-purple-500">Requires AI Use in Course</span>
+            <span class="text-[var(--foreground)]">0.52% (94)</span>
+          </div>
+          <div class="w-full bg-[var(--border)] rounded-full h-2">
+            <div class="bg-purple-500 h-2 rounded-full" style="width: 0.52%"></div>
+          </div>
+        </div>
+      </div>
+      <div class="mt-6 p-4 rounded-xl bg-purple-500/5 border border-purple-500/20 text-xs">
+        <strong class="text-purple-400 block mb-1">Pedagogical Milestone:</strong>
+        Across 94 course sections, faculty have transitioned from regulating AI as an academic integrity risk to requiring generative AI as a foundational literacy and writing skill.
+      </div>
+    </div>
+
+    <!-- Spotlight: Courses Requiring AI -->
+    <div class="bg-[var(--card)] border border-[var(--border)] rounded-2xl p-6 shadow-sm lg:col-span-2">
+      <h3 class="text-base font-bold text-[var(--foreground)] mb-2">Spotlight: How USG Faculty Require AI</h3>
+      <p class="text-xs text-[var(--muted-foreground)] mb-4">
+        Verbatim curricular extracts demonstrating how instructors actively mandate generative AI into course pedagogy:
+      </p>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
+        
+        <!-- Example 1 -->
+        <div class="p-4 rounded-xl bg-[var(--background)] border border-[var(--border)] flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-2">
+              <span class="font-bold text-[var(--foreground)]">Georgia State University</span>
+              <span class="px-2 py-0.5 rounded bg-purple-500/10 text-purple-400 text-[10px] font-semibold">ENGL 1102 / 1101</span>
+            </div>
+            <p class="italic text-[var(--muted-foreground)] leading-relaxed">
+              "A special focus of this course is on using AI in multimodal composing and learning how to analyze and create multimodal texts using a variety of tools. You must be willing to use AI to take this section of English 1102. If you are not willing to use AI, please find a different section."
+            </p>
+          </div>
+          <div class="mt-3 pt-2 border-t border-[var(--border)] flex items-center justify-between text-[11px] text-[var(--muted-foreground)]">
+            <span>Assignment: High-Res Rhetorical Banner Image</span>
+            <span class="text-emerald-400 font-medium">Mandatory</span>
+          </div>
+        </div>
+
+        <!-- Example 2 -->
+        <div class="p-4 rounded-xl bg-[var(--background)] border border-[var(--border)] flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-2">
+              <span class="font-bold text-[var(--foreground)]">Georgia State University</span>
+              <span class="px-2 py-0.5 rounded bg-purple-500/10 text-purple-400 text-[10px] font-semibold">ENGL 1101 / 1102</span>
+            </div>
+            <p class="italic text-[var(--muted-foreground)] leading-relaxed">
+              "Receive feedback from three sources: your instructor, your peers, and AI. First, you will use AI tools to revise and edit your own work. Next, you will submit a first draft... AI tools may support certain learning processes when used intentionally."
+            </p>
+          </div>
+          <div class="mt-3 pt-2 border-t border-[var(--border)] flex items-center justify-between text-[11px] text-[var(--muted-foreground)]">
+            <span>Pedagogy: Guided Thinking Partner</span>
+            <span class="text-emerald-400 font-medium">Mandatory</span>
+          </div>
+        </div>
+
+        <!-- Example 3 -->
+        <div class="p-4 rounded-xl bg-[var(--background)] border border-[var(--border)] flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-2">
+              <span class="font-bold text-[var(--foreground)]">Kennesaw State University</span>
+              <span class="px-2 py-0.5 rounded bg-purple-500/10 text-purple-400 text-[10px] font-semibold">40 Course Sections</span>
+            </div>
+            <p class="italic text-[var(--muted-foreground)] leading-relaxed">
+              "Students are required to use generative AI tools to assist in research synthesis, design prototyping, and code refactoring. All student submissions must include complete prompt logs and verification audits."
+            </p>
+          </div>
+          <div class="mt-3 pt-2 border-t border-[var(--border)] flex items-center justify-between text-[11px] text-[var(--muted-foreground)]">
+            <span>Focus: Prompt Engineering Logs</span>
+            <span class="text-emerald-400 font-medium">Mandatory</span>
+          </div>
+        </div>
+
+        <!-- Example 4 -->
+        <div class="p-4 rounded-xl bg-[var(--background)] border border-[var(--border)] flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-2">
+              <span class="font-bold text-[var(--foreground)]">University of North Georgia</span>
+              <span class="px-2 py-0.5 rounded bg-purple-500/10 text-purple-400 text-[10px] font-semibold">15 Course Sections</span>
+            </div>
+            <p class="italic text-[var(--muted-foreground)] leading-relaxed">
+              "AI literacy is a defined course learning objective. Coursework incorporates comparative evaluation between human-written and machine-generated texts to assess accuracy and bias."
+            </p>
+          </div>
+          <div class="mt-3 pt-2 border-t border-[var(--border)] flex items-center justify-between text-[11px] text-[var(--muted-foreground)]">
+            <span>Objective: Critical AI Literacy</span>
+            <span class="text-emerald-400 font-medium">Mandatory</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Searchable Campus-by-Campus Table -->
+  <div class="max-w-7xl mx-auto mb-8 bg-[var(--card)] border border-[var(--border)] rounded-2xl p-6 shadow-sm">
+    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-6">
+      <div>
+        <h2 class="text-lg font-bold text-[var(--foreground)]">Campus-by-Campus Analysis ($N = 45,851$)</h2>
+        <p class="text-xs text-[var(--muted-foreground)] mt-0.5">Explore syllabus counts, boilerplate rates, and policy stances across all USG repositories.</p>
+      </div>
+      <div class="w-full sm:w-72">
+        <input 
+          type="text" 
+          id="campusSearch" 
+          placeholder="Filter by campus or subdomain..." 
+          class="w-full px-3.5 py-2 text-xs rounded-xl bg-[var(--background)] border border-[var(--border)] text-[var(--foreground)] placeholder-[var(--muted-foreground)] focus:outline-none focus:ring-2 focus:ring-blue-500/50"
+          onkeyup="filterCampusTable()"
+        >
+      </div>
+    </div>
+
+    <div class="overflow-x-auto">
+      <table class="w-full text-left text-xs border-collapse" id="campusTable">
+        <thead>
+          <tr class="border-b border-[var(--border)] text-[var(--muted-foreground)] font-semibold uppercase tracking-wider">
+            <th class="py-3 px-3">Institution</th>
+            <th class="py-3 px-2">Key</th>
+            <th class="py-3 px-3 text-right">Total Courses</th>
+            <th class="py-3 px-3 text-right">Boilerplate Only</th>
+            <th class="py-3 px-3 text-right">Prohibits AI</th>
+            <th class="py-3 px-3 text-right">Permits Some AI</th>
+            <th class="py-3 px-3 text-right">Requires AI</th>
+            <th class="py-3 px-4">Distribution Visual</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-[var(--border)]" id="campusTableBody">
+          <!-- Rows injected via script -->
+        </tbody>
+        <tfoot>
+          <tr class="border-t-2 border-[var(--border)] font-bold text-[var(--foreground)] bg-[var(--background)]/50">
+            <td class="py-3.5 px-3">USG STATEWIDE TOTAL</td>
+            <td class="py-3.5 px-2">—</td>
+            <td class="py-3.5 px-3 text-right text-blue-500 font-extrabold">45,851</td>
+            <td class="py-3.5 px-3 text-right">27,916 (60.88%)</td>
+            <td class="py-3.5 px-3 text-right text-rose-400">7,407 (16.15%)</td>
+            <td class="py-3.5 px-3 text-right text-emerald-400">10,434 (22.76%)</td>
+            <td class="py-3.5 px-3 text-right text-purple-400">94 (0.21%)</td>
+            <td class="py-3.5 px-4 text-xs font-normal text-[var(--muted-foreground)]">Complete Census</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </div>
+
+  <!-- Methodological Compliance & Ethics -->
+  <div class="max-w-7xl mx-auto bg-[var(--card)] border border-[var(--border)] rounded-2xl p-6 shadow-sm">
+    <h3 class="text-base font-bold text-[var(--foreground)] mb-3">Research Ethics, Fidelity Mandate & Faculty Privacy</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs text-[var(--muted-foreground)] leading-relaxed">
+      <div class="p-4 rounded-xl bg-[var(--background)] border border-[var(--border)]">
+        <strong class="text-[var(--foreground)] block mb-1">1. Absolute Faculty Anonymity</strong>
+        In accordance with institutional research ethics, all instructor names have been suppressed and nullified in all exports, statistical distributions, and analytical views.
+      </div>
+      <div class="p-4 rounded-xl bg-[var(--background)] border border-[var(--border)]">
+        <strong class="text-[var(--foreground)] block mb-1">2. Statutory Fidelity Mandate</strong>
+        Section 2.8 mandates that public syllabus postings must be identical to official classroom distributions, guaranteeing high-fidelity empirical grounding.
+      </div>
+      <div class="p-4 rounded-xl bg-[var(--background)] border border-[var(--border)]">
+        <strong class="text-[var(--foreground)] block mb-1">3. Automated Baseline Subtraction</strong>
+        Campus-wide default statements are algorithmically isolated and subtracted before custom instructor policies are screened, preventing false-positive inflation.
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const campusData = [
+      { name: "Georgia State University", sub: "gsu", total: 8932, def: 8434, pro: 166, per: 319, req: 13 },
+      { name: "Kennesaw State University", sub: "kennesaw", total: 7249, def: 3655, pro: 1604, per: 1950, req: 40 },
+      { name: "Georgia Southern University", sub: "georgiasouthern", total: 5396, def: 3681, pro: 894, per: 820, req: 1 },
+      { name: "Augusta University", sub: "augusta", total: 4127, def: 1527, pro: 142, per: 2458, req: 0 },
+      { name: "University of North Georgia", sub: "ung", total: 4003, def: 1967, pro: 1041, per: 980, req: 15 },
+      { name: "Georgia Gwinnett College", sub: "ggc", total: 2053, def: 3, pro: 837, per: 1212, req: 1 },
+      { name: "Columbus State University", sub: "columbusstate", total: 1868, def: 1847, pro: 0, per: 21, req: 0 },
+      { name: "Middle Georgia State University", sub: "mga", total: 1686, def: 57, pro: 939, per: 689, req: 1 },
+      { name: "Georgia College & State University", sub: "gcsu", total: 1614, def: 1553, pro: 27, per: 34, req: 0 },
+      { name: "College of Coastal Georgia", sub: "ccga", total: 1481, def: 1313, pro: 116, per: 52, req: 0 },
+      { name: "Valdosta State University", sub: "valdosta", total: 1193, def: 1193, pro: 0, per: 0, req: 0 },
+      { name: "Clayton State University", sub: "clayton", total: 1070, def: 179, pro: 337, per: 550, req: 4 },
+      { name: "Georgia Highlands College", sub: "highlands", total: 815, def: 182, pro: 232, per: 401, req: 0 },
+      { name: "Dalton State College", sub: "daltonstate", total: 801, def: 36, pro: 493, per: 264, req: 8 },
+      { name: "Abraham Baldwin Agricultural College", sub: "abac", total: 699, def: 697, pro: 0, per: 2, req: 0 },
+      { name: "Georgia Southwestern State University", sub: "gsw", total: 627, def: 328, pro: 241, per: 57, req: 1 },
+      { name: "Savannah State University", sub: "savannahstate", total: 468, def: 7, pro: 141, per: 317, req: 3 },
+      { name: "Georgia Institute of Technology", sub: "gatech", total: 428, def: 428, pro: 0, per: 0, req: 0 },
+      { name: "Gordon State College", sub: "gordonstate", total: 366, def: 272, pro: 64, per: 30, req: 0 },
+      { name: "Fort Valley State University", sub: "fvsu", total: 272, def: 0, pro: 51, per: 221, req: 0 },
+      { name: "Atlanta Metropolitan State College", sub: "amsc", total: 194, def: 165, pro: 10, per: 16, req: 3 },
+      { name: "University of Georgia", sub: "uga", total: 180, def: 124, pro: 41, per: 13, req: 2 },
+      { name: "USG eCore / eCampus", sub: "ecampus-usg", total: 177, def: 173, pro: 2, per: 2, req: 0 },
+      { name: "University of West Georgia", sub: "westga", total: 100, def: 52, pro: 26, per: 21, req: 1 },
+      { name: "Albany State University", sub: "asurams", total: 50, def: 41, pro: 3, per: 5, req: 1 },
+      { name: "South Georgia State College", sub: "sgsc", total: 1, def: 1, pro: 0, per: 0, req: 0 },
+      { name: "East Georgia State College*", sub: "egsc", total: 1, def: 1, pro: 0, per: 0, req: 0 }
+    ];
+
+    function renderTable(data) {
+      const tbody = document.getElementById("campusTableBody");
+      tbody.innerHTML = "";
+      data.forEach(item => {
+        const defPct = ((item.def / item.total) * 100).toFixed(1);
+        const proPct = ((item.pro / item.total) * 100).toFixed(1);
+        const perPct = ((item.per / item.total) * 100).toFixed(1);
+        const reqPct = ((item.req / item.total) * 100).toFixed(1);
+
+        const tr = document.createElement("tr");
+        tr.className = "hover:bg-[var(--background)]/60 transition-colors";
+        tr.innerHTML = `
+          <td class="py-3 px-3 font-semibold text-[var(--foreground)]">${item.name}</td>
+          <td class="py-3 px-2 font-mono text-[11px] text-[var(--muted-foreground)]">${item.sub}</td>
+          <td class="py-3 px-3 text-right font-medium">${item.total.toLocaleString()}</td>
+          <td class="py-3 px-3 text-right text-[var(--muted-foreground)]">${item.def.toLocaleString()} <span class="text-[11px] opacity-75">(${defPct}%)</span></td>
+          <td class="py-3 px-3 text-right text-rose-500 font-medium">${item.pro.toLocaleString()} <span class="text-[11px] opacity-75">(${proPct}%)</span></td>
+          <td class="py-3 px-3 text-right text-emerald-500 font-medium">${item.per.toLocaleString()} <span class="text-[11px] opacity-75">(${perPct}%)</span></td>
+          <td class="py-3 px-3 text-right ${item.req > 0 ? 'text-purple-400 font-bold' : 'text-[var(--muted-foreground)]'}">${item.req} <span class="text-[11px] opacity-75">(${reqPct}%)</span></td>
+          <td class="py-3 px-4">
+            <div class="w-28 h-2 rounded-full overflow-hidden flex bg-[var(--border)]">
+              <div style="width: ${defPct}%" class="bg-blue-500" title="Boilerplate: ${defPct}%"></div>
+              <div style="width: ${proPct}%" class="bg-rose-500" title="Prohibits: ${proPct}%"></div>
+              <div style="width: ${perPct}%" class="bg-emerald-500" title="Permits: ${perPct}%"></div>
+              <div style="width: ${reqPct}%" class="bg-purple-500" title="Requires: ${reqPct}%"></div>
+            </div>
+          </td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
+
+    function filterCampusTable() {
+      const q = document.getElementById("campusSearch").value.toLowerCase();
+      const filtered = campusData.filter(d => d.name.toLowerCase().includes(q) || d.sub.toLowerCase().includes(q));
+      renderTable(filtered);
+    }
+
+    renderTable(campusData);
+  </script>
+</body>
+</html>
